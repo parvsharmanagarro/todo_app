@@ -42,9 +42,9 @@ Built With:
 --------------
 - Nodejs-environment
 - Express Framework-framework used
-- AJAX-to make requests.
+- AJAX-to make requests
 - Html,CSS- for webpage design
-s
+
 Author:
 --------------
 Parv Sharma
