@@ -1,0 +1,52 @@
+div.todoStatusACTIVE{
+    color: blue;
+}
+
+h1{
+    background:peachpuff;
+}
+h2
+{
+    color:steelblue;
+}
+div.todoStatusCOMPLETE{
+    color : green;
+    text-decoration : line-through;
+}
+
+div.todoStatusDELETED {
+    color : red;
+    text-decoration : line-through;
+
+}
+.breathVertical {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+/*.check {
+    position: absolute;
+    right: 600px;
+}*/
+.center {
+    position: absolute;
+    right: 500px;
+}
+
+
+button
+{
+    background-color: Transparent;
+    border: none;
+    outline: none;
+}
+a
+{
+    color:blue;
+    text-decoration: underline;
+}
+.refresh
+{   color: cadetblue;
+    border:cadetblue;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<h1 align="center">My Todos</h1>
+<button onclick="getTodosAJAX()" class="refresh" >Refresh Todos</button>
+<h2 >Active todos</h2>
+<div id="active_todos">
+</div>
+<br>
+<br>
+<hr>
+<input type="text" id="new_todo" placeholder="Enter todo item" />
+<input type="button" value="Add todo"  onclick="addTodoAJAX()" />
+<br>
+<br>
+<hr >
+<h2 >Completed todos</h2>
+<div id="hide_complete"></div>
+<div id="completed_todos">
+</div>
+<br>
+<br>
+<hr>
+<h2 >Deleted todos</h2>
+<div id="hide_deleted"></div>
+<div id="deleted_todos">
+<h2 ></h2>
+</div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
